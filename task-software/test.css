@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 30px;
+}
+header h1{
+    margin-left: 200px;
+}
+nav.navbar a{
+    text-decoration: none;
+    margin: 30px;
+    color: rgb(163, 160, 160);
+}
+hr{
+    width: 68%;
+    margin: 30px 0px 30px 200px;
+    color: gray;
+}
+.first-section{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: rgb(163, 160, 160);
+}
+.card{
+    width: 15%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    min-height: 180px;
+    margin-right: 40px;
+}
+.card h3{
+text-align: center;
+color: black;
+background-color: rgb(163, 160, 160);
+margin-bottom: 3px;
+padding: 15px;
+}
+.second h3,.three h3{
+    background-color: rgb(66, 116, 255)
+}
+.card p{
+    text-align: center;
+    margin-bottom: 3px;
+}
+.card button{
+    margin: 2px 3px;
+    font-size: 20px;
+    color: rgb(80, 80, 231);
+    border: 1px solid blue;
+    border-radius: 2px;
+    background-color: rgb(201, 201, 201);
+    margin-bottom: 1px;
+    width: 97%;
+}
+.three button , .second button{
+background-color: rgb(44, 44, 219);
+color: rgb(163, 160, 160);
+border: 1px solid rgb(163, 160, 160);
+border-radius: 2px;
+}
+.second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}

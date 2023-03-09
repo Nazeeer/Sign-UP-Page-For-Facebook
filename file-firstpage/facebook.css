@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f2f5;
+}
+.header{
+    text-align: center;
+}
+.header img{
+    height: 159px;
+    width: 284px;
+    margin-top: -31px;
+    margin-bottom: -25px;
+}
+.card{
+    width: 422px;
+    box-shadow: 6px 6px 6px 6px #e7e4e4f0;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 44px;
+}
+.container  h2{
+    padding-top: 2px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+.container .first-p{
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 0rem ;
+}
+p{
+    margin-bottom: 0rem;
+}
+hr{
+    width: 100%;
+    color: #6c757d;
+    margin: .5rem 0;
+    opacity: 0.25;
+}
+.input-group input{
+    margin: 0 10px 0 5px;
+    border-radius: 5px;
+}
+.short-input{
+    /* width: 94%; */
+    /* margin: 0 5px 5px 5px; */
+}
+.long-input{
+    /* width: 97%;
+    margin: 5px; */
+}
+.control-form select ,.control-form div{
+margin-top: 0px;
+}
+.date-of-birth{
+    color: #6c757d;
+    font-size: 13px;
+    padding: 0px 2px;
+}
+.control-select-form{
+    margin: 5px;
+}
+.control-radio{
+    display: flex;
+    justify-content:space-between;
+}
+.control-radio label {
+    border: 1px solid #cac9c9;
+    padding: 4px 8px 4px 8px;
+    border-radius: 5px;
+    width: 30%;
+}
+.control-radio input{
+    /* margin-left: 15px;
+    margin-right: 0px; */
+    text-align: right;
+    /* margin-bottom: 0rem ; */
+}
+.form-check-label{
+    display: flex;
+    justify-content: space-between;
+}
+.Gender{
+    color: #6c757d;
+    font-size: 13px;
+}
+.card .Gender{
+    text-align: left;
+    margin-top: -3px;
+    margin-left: 0px;
+}
+.text{
+    color: #6c757d;
+    font-size: 10.5px;
+    margin: 5px 12px;
+}
+.text a{
+    text-decoration: none;
+
+}
+.control-button button{
+    width: 46%;
+    border-radius: 5px;
+    color: white;
+    background-color: #00a400;
+    font-weight: 700;
+    border: 1px solid #00a400;
+    margin-left: 27%;
+    margin-top: 18px;
+    height: 36px;
+    font-size: 18px;
+}
+.control-hyperlink a{
+    text-decoration: none;
+    font-weight: 500;
+}
+.control-hyperlink{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 21px;
+}
+/* Mahmoud's Code */
+.message-error{
+    color: #f02849;
+    font-size: 13px;
+    padding: 0px 2px;
+}
